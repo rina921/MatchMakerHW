@@ -1,0 +1,189 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:700italic);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900);
+
+
+#page-header {
+	background: black;
+	color: white;
+	overflow: hidden;
+	border-bottom: 4px solid yellow;
+	padding: 0 3%;
+}
+
+header h1 {
+	background-color: black;
+	font-family: athelas;
+	color: yellow;
+}
+
+header nav li {
+	color: white;
+	float: right;
+	margin: 0px 3px 0px 24px;
+	list-style-type: none;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+section.greybg {
+  background-color: lightgrey;
+  margin: 0px;
+  height: 100%;
+}
+
+section h2 {
+  margin: 0px;
+  padding: 15px 0px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  font-style: italic; 
+
+}
+
+section h2 em {
+  color: #666;
+  text-decoration: line-through;
+}
+
+section h2 strong {
+    border-bottom: 2px solid yellow;
+}
+
+body {
+	margin: auto;
+}
+
+
+#page-header nav {
+	float: right;
+}
+
+nav.bold {
+	font-weight: bold;
+	font-family: Myriad Pro;
+}
+
+img {
+	width: 100%;
+
+}
+
+aside {
+	width: 210px;
+	padding: 60px 20px;
+	position: relative;
+	left: 800px;
+  	top: -650px;
+  	background-color: white;
+  	opacity: 0.7;
+  	box-shadow: 2px 2px 2px #888888;
+   	border: 1px;
+  	border-style: solid ;
+  	border-color: #888888;
+    font-family: 'Gentium Basic', serif;
+  	margin-top: 10px;
+  	font-size: 16px;
+  	text-align: left;
+  	line-height: -50%;
+
+}
+
+aside h2 {
+	font-weight: bolder;
+	margin-top: -15px;
+}
+
+aside p {
+	padding: 3px;
+	margin-top: -15px;
+	
+
+}
+
+#create {
+	background-color: yellow;
+	padding: 10px 30px;
+	margin-left: 15px;
+	border-radius: 4px;
+	font-weight: bold;
+	font-family: impact;
+	font-size: 16px;
+
+	
+
+}
+
+a.button {
+	background-color: lightgrey;
+	padding: 10px 30px;
+	text-align: center;
+	border-radius: 4px;
+	font-weight: bold;
+	font-family: impact;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	box-shadow: 2px 2px 2px #888888;
+
+	
+
+}
+
+span {
+	display: block;
+}
+
+div {
+	display: inline-block;
+	padding: 90px;
+	line-height: 130%;
+	font-family: 'Gentium Basic', serif;
+	text-align: left;
+
+	
+
+}
+
+
+.CreateaProfile, .FindaDeveloper, .FindaDesigner {
+	margin-top: -300px;
+	position: relative; 
+	top: -100px;
+	left: 75px;
+
+	 
+}
+
+div h3 {
+	font-family: athelas;
+	font-size: 22px; 
+}
+
+.FindaDeveloper, .FindaDesigner {
+	 border-left: thin solid lightgrey;
+	 position: relative; 
+
+	 
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 25px;
+	margin-top:-8%;
+
+}
+
+footer p {
+	padding-left: 20px;
+}
